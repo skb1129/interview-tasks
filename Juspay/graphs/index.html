@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Graphs</title>
+    <style>
+        #canvas {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="radio" id="line" name="graph_type" value="line" checked> Line<br>
+        <input type="radio" id="bar" name="graph_type" value="bar"> Bar<br>
+        <textarea id="data" placeholder="2D array of data points"></textarea>
+        <button id="generate">Generate</button>
+    </div>
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <script src="./app.js"></script>
+</body>
+
+</html>
